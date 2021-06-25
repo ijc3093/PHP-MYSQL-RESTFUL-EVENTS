@@ -60,7 +60,8 @@
     function logout(){
         //$_SESSION = array(); // destroy all venue data
         session_destroy(); // compelte erase venue
-        header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+        //header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+        header("location: http://127.0.0.1:8080/login.php");
         exit();
     }
 

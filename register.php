@@ -25,11 +25,12 @@
         }
         if($post = $db->insertRegister_User($_POST['name'], $_POST['password'], $role)){
             echo "<script type='text/javascript'>alert('User added already!')</script>";
-            header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+           // header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+            header("location: http://127.0.0.1:8080/login.php");
         }
         else{
             echo "<script type='text/javascript'>alert('Event has not added yet!')</script>";
-            header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+            header("location: http://127.0.0.1:8080/login.php");
         }
     }
 

@@ -38,7 +38,8 @@ include('header.php');
   //destory the session to the login local (index)
   function logout(){
    // session_destory();
-    header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+    //header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+    header("location: http://127.0.0.1:8080/login.php");
     exit();
   }
 ?>

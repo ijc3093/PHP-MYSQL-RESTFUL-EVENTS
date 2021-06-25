@@ -31,12 +31,15 @@
     function logout(){
         //$_SESSION = array(); // destroy all session data
         session_destroy(); // compelte erase session
-        header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+        // header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/login.php");
+        header("location: http://127.0.0.1:8080/login.php");
+        
         exit();
     }
 
     if($_SESSION['userRole'] == 3){
-      header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/events.php");
+     // header("location: http://serenity.ist.rit.edu/~ijc3093/ISTE-341/Project1/events.php");
+      header("location: http://127.0.0.1:8080/events.php");
     }
 
 ?>
