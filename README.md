@@ -14,7 +14,7 @@
 - Open Visual Code studio (VS)
 - Upload or drag your project(backend) into VS
 - Click Terminal at top bar 
-- Type command: php -S 127.0.0.1:8080 -t /Users/ikemefunachukwunyerenwa/Desktop/Angular-PHP-MYSQL/PHP-REST-API/backend and press "enter"
+- Type command: php -S 127.0.0.1:8080 and press "enter"
 - You should see the running in the output: PHP 7.3.11 Development Server started at Thu Jun 24 12:50:51 2021
 Listening on http://127.0.0.1:8080
 - Check the internet at: http://127.0.0.1:8080/api/login.php
