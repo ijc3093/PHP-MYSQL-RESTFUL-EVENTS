@@ -1,7 +1,7 @@
 
 <?php
 
-    include('validate.php');
+    //include('validate.php');
     
     require 'DB_Management.php';
     if(isset($_SESSION['userRole'])){
